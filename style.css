@@ -2,7 +2,7 @@ body {
     background-color: rgb(0, 0, 0);
     background-image: url("images/sunset.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 115vw;
     background-position-x: center;
     display: flex;
     flex-wrap: wrap;
