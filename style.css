@@ -38,9 +38,10 @@ body {
 }
 
 #countdown {
-    width: 100%;
+    position: relative;
+    left: -15%;
+    width: 130%;
     height: 400px;
-    zoom: calc(70vw/304);
     border: none;
 }
 
