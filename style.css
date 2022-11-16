@@ -1,12 +1,36 @@
 body {
     background-color: rgb(0, 0, 0);
-    background-image: url("images/bg.jpg");
-    background-repeat:repeat;
+    background-image: url("images/sunset.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position-x: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+    margin: 0;
+    color: white;
 }
 
-h2 {
-    color: white;
+#cover-photo {
+    margin-top: 15vw;
+    width: 70%;
+    -webkit-box-shadow: 0px 0px 36px 20px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 0px 36px 20px rgba(0,0,0,0.59);
+    box-shadow: 0px 0px 36px 20px rgba(0,0,0,0.59);
+}
+
+#cover-photo img {
+    max-width: 100%;
+}
+
+@media all and (min-width: 720px) {
+    body {
+        background-size: 720px;
+    }
+
+    #cover-photo {
+        margin-top: 108px;
+        width: 504px;
+    }
 }
